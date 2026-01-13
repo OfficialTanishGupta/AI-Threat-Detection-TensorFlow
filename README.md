@@ -1,16 +1,20 @@
 # AI-Based Threat Detection & Behavior Analysis System
 
 ## 📌 Overview
+
 This project aims to build an AI-powered system that can analyze live video footage, detect objects held by individuals, understand human movement and behavior, and identify potential public safety threats.
 
 The system is designed for real-world use cases such as:
+
 - CCTV surveillance
 - Public safety monitoring
 - Smart city infrastructure
 
 ## 🎯 Problem Statement
+
 Objects like knives or stones do not always indicate criminal intent.
 This project focuses on **behavior-aware AI**, which analyzes:
+
 - Objects in hand
 - Human pose and movement
 - Activity patterns over time
@@ -18,6 +22,7 @@ This project focuses on **behavior-aware AI**, which analyzes:
 to determine whether a situation is **safe, suspicious, or dangerous**.
 
 ## 🧠 Core Features
+
 - Live video frame analysis
 - Object detection using TensorFlow
 - Human pose and movement analysis
@@ -26,6 +31,7 @@ to determine whether a situation is **safe, suspicious, or dangerous**.
 - Alert mechanism for potential threats
 
 ## 🛠️ Technology Stack
+
 - Python
 - TensorFlow / Keras
 - OpenCV
@@ -34,6 +40,7 @@ to determine whether a situation is **safe, suspicious, or dangerous**.
 - Flask (Backend API)
 
 ## 🗂️ Project Structure
+
 AI-Threat-Detection-TensorFlow/
 ├── notebooks/ # Colab notebooks
 ├── data/ # Datasets & logs
@@ -44,6 +51,7 @@ AI-Threat-Detection-TensorFlow/
 └── README.md
 
 ## 🚀 Development Roadmap
+
 - Milestone 1: Object detection (knife, stone, bag, etc.)
 - Milestone 2: Human pose & movement analysis
 - Milestone 3: ANN-based behavior classification
@@ -51,4 +59,5 @@ AI-Threat-Detection-TensorFlow/
 - Milestone 5: Mobile app & CCTV integration
 
 ## 📈 Status
+
 🟢 Project initialized — foundation phase completed
