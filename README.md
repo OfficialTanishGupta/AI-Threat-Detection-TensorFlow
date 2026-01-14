@@ -10,6 +10,10 @@ The system is designed for real-world use cases such as:
 - Public safety monitoring
 - Smart city infrastructure
 
+## 📷 Object Detection Output
+
+![Object Detection Result](assets/object_detection_output.png)
+
 ## 🎯 Problem Statement
 
 Objects like knives or stones do not always indicate criminal intent.
@@ -57,6 +61,27 @@ AI-Threat-Detection-TensorFlow/
 - Milestone 3: ANN-based behavior classification
 - Milestone 4: Feedback-based learning
 - Milestone 5: Mobile app & CCTV integration
+
+---
+
+## Milestone Progress
+
+### ✅ Milestone 1: Person Detection
+
+- Detects all persons in the frame using YOLOv8
+
+### ✅ Milestone 2: Pose Estimation
+
+- Detects body keypoints and skeletons for all persons
+- Enables posture and movement analysis
+
+📷 **Sample Output:**  
+![Pose Output](outputs/person_pose_detection.png)
+
+### 🟡 Milestone 3: Object in Hand Detection (Next)
+
+- Detect object near hand keypoints
+- Classify potential threat vs normal activity
 
 ## 📈 Status
 
