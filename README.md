@@ -86,3 +86,7 @@ AI-Threat-Detection-TensorFlow/
 ## 📈 Status
 
 🟢 Project initialized — foundation phase completed
+
+### 🧩 Model File
+
+- `behavior_ann_model.h5` — Trained ANN model used for classifying human behavior into Normal, Suspicious, and Dangerous categories.
