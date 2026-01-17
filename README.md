@@ -78,14 +78,25 @@ AI-Threat-Detection-TensorFlow/
 📷 **Sample Output:**  
 ![Pose Output](outputs/person_pose_detection.png)
 
-### 🟡 Milestone 3: Object in Hand Detection (Next)
+### 🟡 Milestone 3: Object in Hand Detection
 
 - Detect object near hand keypoints
 - Classify potential threat vs normal activity
 
+### 🟡 Milestone 4: Pose & Motion Feature Extraction (Next)
+
+- Detect human pose landmarks using MediaPipe
+- Visualize skeleton overlay on video frames
+- Extract motion features:
+  - Arm angle (posture)
+  - Hand speed (movement intensity)
+- Prepare features for ANN-based behavior classification
+
 ## 📈 Status
 
-🟢 Project initialized — foundation phase completed
+✅ Completed milestone 4
+✅ Tested on video
+✅ Ready for ANN-based behavior classification (Milestone 5)
 
 ### 🧩 Model File
 
