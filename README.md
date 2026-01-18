@@ -92,11 +92,25 @@ AI-Threat-Detection-TensorFlow/
   - Hand speed (movement intensity)
 - Prepare features for ANN-based behavior classification
 
+### 🟡 Milestone 5: Behavior Classification (Completed)
+
+- ANN-based behavior prediction
+- Real-time inference on video frames
+- Normal / Suspicious / Dangerous classification
+- Foundation for alert & feedback system
+
+## 🎯 Output Classes
+
+Class Meaning
+0 Normal
+1 Suspicious
+2 Dangerous
+
 ## 📈 Status
 
-✅ Completed milestone 4
-✅ Tested on video
-✅ Ready for ANN-based behavior classification (Milestone 5)
+✅ Completed
+✅ Predictions visible on video
+✅ End-to-end pipeline validated
 
 ### 🧩 Model File
 
