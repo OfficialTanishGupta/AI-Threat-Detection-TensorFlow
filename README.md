@@ -99,6 +99,15 @@ AI-Threat-Detection-TensorFlow/
 - Normal / Suspicious / Dangerous classification
 - Foundation for alert & feedback system
 
+### 🟡 Future Enhancement
+
+Feedback Learning Concept:
+
+- Logged events can be reviewed by humans
+- Incorrect predictions are relabeled
+- New labeled data retrains ANN
+- Model improves over time (continuous learning)
+
 ## 🎯 Output Classes
 
 Class Meaning
